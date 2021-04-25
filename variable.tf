@@ -21,28 +21,6 @@ variable "aws_region_az" {
 }
  
  
-# Variables for VPC
-######################################
- 
-variable "vpc_cidr_block" {
-  description = "CIDR block for the VPC"
-  
-  default     = "10.0.0.0/16"
-}
- 
-variable "vpc_dns_support" {
-  description = "Enable DNS support in the VPC"
-
-  default     = true
-}
- 
-variable "vpc_dns_hostnames" {
-  description = "Enable DNS hostnames in the VPC"
-
-  default     = true
-}
- 
- 
 # Variables for Security Group
 ######################################
  
@@ -98,33 +76,6 @@ variable "sg_egress_cidr_block" {
   default     = "0.0.0.0/0"
 }
  
- 
-# Variables for Subnet
-######################################
- 
-variable "sbn_public_ip" {
-  description = "Assign public IP to the instance launched into the subnet"
-  
-  default     = true
-}
- 
-variable "sbn_cidr_block" {
-  description = "CIDR block for the subnet"
- 
-  default     = "10.0.1.0/24"
-}
- 
- 
-# Variables for Route Table
-######################################
- 
-variable "rt_cidr_block" {
-  description = "CIDR block for the route table"
-  
-  default     = "0.0.0.0/0"
-}
- 
- 
 # Variables for Instance
 ######################################
  
@@ -135,7 +86,6 @@ variable "instance_ami" {
  
 variable "instance_type" {
   description = "Type of the instance"
- 
   default     = "t2.micro"
 }
  
@@ -146,37 +96,31 @@ variable "key_name" {
  
 variable "root_device_type" {
   description = "Type of the root block device"
-  
   default     = "gp2"
 }
  
 variable "root_device_size" {
   description = "Size of the root block device"
-  
   default     = "30"
 }
 
 variable "sg_instance" {
   description = "password acces to database"
-  
   default = "sg-00a91c23c4e47fbf6"
 }
 
 # variable for rds
-# config artifact
+
 variable "database_name" {
   description = "db name"
-  
   default = "wikidatabase"
 }
 variable "database_user" {
   description = "user name"
-  
   default = "wiki"
 }
 # secrets artifact
 variable "database_password" {
   description = "password acces to database"
-  
   default = "thwassignments"
 }
