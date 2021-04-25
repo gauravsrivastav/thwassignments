@@ -6,11 +6,12 @@
 
 
 <h1 align="center">
-    Terraform AWS Security Group
+    Terraform AWS Infra: MEDIAWIKI
 </h1>
 
 <p align="center" style="font-size: 1.2rem;"> 
-    This terraform module creates set of Security Group and Security Group Rules resources in various combinations.
+    This terraform module creates set of Security Group, add rule, ec2-instance  and rds instance resources in various combinations. <br>
+    Install Apache server, PHP with RHELv8 OS
      </p>
 
 <p align="center">
