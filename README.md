@@ -57,6 +57,7 @@ This module has a few dependencies:
 - <img width="1440" alt="installation" src="https://user-images.githubusercontent.com/12773015/116000413-b49e7000-a60d-11eb-9414-eddfa34a63fd.png">
 - Copy LaunchSetting.php in mediawiki folder.
 - Please check http://100.27.38.72/mediawiki/
+- 
 
 ![final](https://user-images.githubusercontent.com/12773015/116000973-f7f9de00-a60f-11eb-8864-24464994076a.png)
 
