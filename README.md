@@ -48,14 +48,18 @@ This module has a few dependencies:
 - Writeen "create-sg.tf" [To create two security_group one for web-server to allow 80 port and another one for Database to access from webserver on 3306 port ]
 <img width="1437" alt="sg" src="https://user-images.githubusercontent.com/12773015/115999653-283e7e00-a60a-11eb-88f9-8b74d74593c0.png">
 - Deploy a single web server, written "create-intance.tf" and bashscript to install and configure the packages [To create web server ( AWS EC2 instance ) ]
-- <img width="1434" alt="ec2-instance" src="https://user-images.githubusercontent.com/12773015/116000047-45744c00-a60c-11eb-9426-e65ed8207173.png">
+<img width="1434" alt="ec2-instance" src="https://user-images.githubusercontent.com/12773015/116000047-45744c00-a60c-11eb-9426-e65ed8207173.png">
 
 - Wriiten "create-db.tf" [To create Mysql database (AWS RDS )]
-- <img width="1440" alt="Screen Shot 2021-04-25 at 9 30 47 PM" src="https://user-images.githubusercontent.com/12773015/116000374-8a4cb280-a60d-11eb-85f2-ec59ddad5942.png">
+<img width="1440" alt="Screen Shot 2021-04-25 at 9 30 47 PM" src="https://user-images.githubusercontent.com/12773015/116000374-8a4cb280-a60d-11eb-85f2-ec59ddad5942.png">
 - Setuped Mediawiki Application and run successfully
-- <img width="1440" alt="launched" src="https://user-images.githubusercontent.com/12773015/116000402-aa7c7180-a60d-11eb-9b80-d04226a84610.png">
+<img width="1440" alt="launched" src="https://user-images.githubusercontent.com/12773015/116000402-aa7c7180-a60d-11eb-9b80-d04226a84610.png">
 - <img width="1440" alt="installation" src="https://user-images.githubusercontent.com/12773015/116000413-b49e7000-a60d-11eb-9414-eddfa34a63fd.png">
 - Copy LaunchSetting.php in mediawiki folder.
+- Please check http://100.27.38.72/mediawiki/
+
+![final](https://user-images.githubusercontent.com/12773015/116000973-f7f9de00-a60f-11eb-8864-24464994076a.png)
+
 
 ## About us
 
